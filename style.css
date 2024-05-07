@@ -1,0 +1,392 @@
+.skill {
+  width: 1000px;
+  margin: 30px auto;
+  padding: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+  list-style: none;
+}
+.bar {
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(to right, rgb(160, 81, 235), rgb(182, 138, 223));
+}
+.python {
+  width: 80%;
+  animation: python 3s;
+}
+
+.sql {
+  width: 80%;
+  animation: sql 3s;
+}
+.linux {
+  width: 60%;
+  animation: linux 3s;
+}
+.dbms {
+  width: 80%;
+  animation: dbms 3s;
+}
+.ds {
+  width: 70%;
+  animation: ds 3s;
+}
+.hc {
+  width: 60%;
+  animation: hc 3s;
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes linux {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes dbms {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes ds {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes hc {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+main hr {
+  border: 0;
+  background: rgb(177, 95, 255);
+  height: 1.5px;
+  margin: 40px 84px;
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+}
+.secondsection h2 {
+  font-size: 1.5rem;
+}
+.thirdsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 85vh;
+}
+.thirdsection h1 {
+  font-size: 1.5rem;
+}
+.textp {
+  color: blueviolet;
+}
+.thirdsection .box {
+  background: rgb(57, 6, 105);
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.thirdsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: rgb(57, 6, 105);
+  margin: 0 100px;
+}
+.vertical-title {
+  position: relative;
+  top: 95px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.vertical-desc {
+  position: relative;
+  top: 95px;
+  color: rgb(37, 3, 68);
+  width: 150px;
+  font-size: 14px;
+}
+details > summary {
+  padding: 4px;
+  width: 150px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+  color: rgb(84, 26, 138);
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: auto;
+  width: 870px;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+.social {
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  height: 10vh;
+}
+.social a {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(87, 18, 150);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+  margin: 0 30px;
+  border-radius: 50%;
+}
+.social a .fa-brands {
+  font-size: 25px;
+  line-height: 80px;
+}
+.social a .fa-brands:hover {
+  font-size: 29px;
+}
+.gotop {
+  position: fixed;
+  width: 48px;
+  height: 45px;
+  background: rgb(102, 45, 156);
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+.gotop:hover {
+  font-size: 25px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.proj {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  font-size: 1.5rem;
+}
+.fourth {
+  max-width: 80vw;
+  margin: auto;
+  height: 93vh;
+}
+.fourth h1 {
+  font-size: 1.5rem;
+}
+.projgrid {
+  padding: 4px;
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+}
+.projgrid .box {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: rgb(227, 212, 240);
+  text-align: center;
+  padding: 20px 10px;
+}
+.projgrid .box h3 {
+  font-size: 19px;
+  padding: 7px 0;
+}
+.projgrid .box p {
+  color: rgb(37, 3, 68);
+  width: 300px;
+  height: 150px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.fourth .projgrid .box .btn {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 8px 15px;
+  background: rgb(119, 88, 148);
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+}
+
+.projgrid .box .btn:hover {
+  letter-spacing: 1px;
+}
+.fifth {
+  max-width: 80vw;
+  margin: auto;
+  height: 75vh;
+}
+.fifth h2 {
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.container .contactinfo {
+  margin-top: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container .contactinfo .boxc {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.container .contactinfo .boxc .icon {
+  min-width: 50px;
+  height: 50px;
+  background: rgb(231, 209, 251);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+  align-items: center;
+}
+.container .contactinfo .boxc .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 15px;
+  color: rgb(41, 32, 50);
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .contactinfo .boxc .text h3 {
+  color: rgb(49, 31, 66);
+}
+.contactform {
+  margin-top: 30px;
+  width: 40%;
+  padding: 30px;
+  background: rgb(231, 209, 251);
+}
+.contactform h2 {
+  font-size: 30px;
+  color: blueviolet;
+  font-weight: 500;
+}
+.contactform .inputbox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  margin: 17px 0;
+  border: none;
+  border-bottom: 2px solid rgb(45, 11, 76);
+  outline: none;
+  resize: none;
+}
+.contactform .inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: rgb(110, 107, 113);
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span {
+  transform: translateY(-7px);
+  font-size: 0px;
+}
+.contactform .inputbox input[type="submit"] {
+  width: 100px;
+  background: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 190px;
+  font-size: 17px;
+  font-weight: bold;
+}
+#last {
+  border: 0;
+  background: rgb(177, 95, 255);
+  height: 3px;
+  margin: 40px 84px;
+  margin-bottom: 0px;
+}
+footer .left {
+  margin: -80px;
+}
+.fifth .bar {
+  width: 140px;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background: rgb(212, 183, 235);
+}

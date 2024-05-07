@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sreeparna Biswas - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: white;
+        color: rgb(52, 51, 51);
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 85px;
+        background-color: rgb(249, 242, 255);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(52, 51, 51);
+      }
+      nav ul li a:hover {
+        color: rgb(93, 25, 156);
+        font-size: 1.02rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        width: 34px;
+        font-size: 1.8rem;
+        margin: 70px 0;
+      }
+      .rightsection img {
+        width: 90%;
+      }
+      .purple {
+        color: blueviolet;
+        font-style: oblique;
+        font-weight: bold;
+      }
+
+      nav .left a {
+        text-decoration: none;
+        color: rgb(52, 51, 51);
+      }
+      nav .left a:hover {
+        color: rgb(93, 25, 156);
+        font-size: 1.6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <a href="index.html">Sreeparna's Portfolio</a>
+        </div>
+        <div class="right">
+          <ul>
+            <li>
+              <a href="Sreeparna Biswas - CV - 2024.pdf" target="_blank"
+                >Download CV</a
+              >
+            </li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#educ">Work Experience & Education</a></li>
+            <li><a href="#projt">Project</a></li>
+            <li><a href="#con">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is
+          <div><span class="purple"> Sreeparna Biswas.</span></div>
+          <div class="autotype"></div>
+        </div>
+
+        <div class="rightsection">
+          <img
+            src="Beige Simple Photo Signature Twitter Profile Picture.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed(".autotype", {
+          strings: [
+            "This portfolio is a representation of all that I have learned and accomplished.",
+          ],
+          typeSpeed: 70,
+        });
+      </script>
+      <script
+        src="https://kit.fontawesome.com/7fbfc5362d.js"
+        crossorigin="anonymous"
+      ></script>
+
+      <div class="social">
+        <a href="https://www.linkedin.com/in/sreeparnabiswas17/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/sreeparna-biswas" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+
+      <hr />
+
+      <section class="secondsection">
+        <span class="textp" id="skills">What I have learned so far.</span>
+        <h2>My Skills</h2>
+
+        <div class="skill">
+          <li>
+            <h3>Python</h3>
+            <span class="bar"><span class="python"></span></span>
+          </li>
+          <li>
+            <h3>SQL</h3>
+            <span class="bar"><span class="sql"></span></span>
+          </li>
+          <li>
+            <h3>Linux</h3>
+            <span class="bar"><span class="linux"></span></span>
+          </li>
+          <li>
+            <h3>DBMS</h3>
+            <span class="bar"><span class="dbms"></span></span>
+          </li>
+          <li>
+            <h3>Data Structure</h3>
+            <span class="bar"><span class="ds"></span></span>
+          </li>
+          <li>
+            <h3>HTML-CSS</h3>
+            <span class="bar"><span class="hc"></span></span>
+          </li>
+        </div>
+      </section>
+
+      <hr id="educ" />
+      <section class="thirdsection">
+        <span class="textp">What I have done so far.</span>
+        <h1>Education & Work Experience</h1>
+
+        <br />
+        <br />
+        <div class="box">
+          <div class="vertical">
+            <div class="vertical-title">MCA (2022-2024)</div>
+            <div class="vertical-desc">
+              CGPA: 8.08 Percentage: 73.3 College: Techno International New Town
+            </div>
+          </div>
+
+          <div class="vertical">
+            <div class="vertical-title">LTI (2020-2022)</div>
+            <div class="vertical-desc">
+              Designation: Software Engineer Project: ABSA
+              <br />
+              <br />
+              <details>
+                <summary>Details</summary>
+                <p>
+                  ● Provided 2nd line of support for all banking activities like
+                  account opening, ATM as well as online transactions, fixed
+                  deposits etc.
+                </p>
+                <p>
+                  ● Managed and handled incidents, problems, and service
+                  requests promptly.
+                </p>
+                <p>● Created 2 patches for immediate fixes.</p>
+                <p>
+                  ● Amended account details whenever service request is raised
+                  for the same.
+                </p>
+                <p>● Performed DR (Disaster Recovery) activity.</p>
+                <p>● Participated in year-end activities.</p>
+              </details>
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">BCA (2017-2020)</div>
+            <div class="vertical-desc">
+              CGPA: 8.69 Percentage: 79.4 College: Techno International New Town
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">Higher Secondary (2016-2017)</div>
+            <div class="vertical-desc">Percentage: 66.6 Board: WBCHSE</div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">Secondary (2014-2015)</div>
+            <div class="vertical-desc">Percentage: 77.42 Board: WBBSE</div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <a class="gotop" href="#"> <i class="fa-solid fa-arrow-up-long"></i></a>
+
+      <section class="fourth">
+        <span class="textp" id="projt">Hands on projects so far.</span>
+        <h2>Projects</h2>
+
+        <br />
+        <br />
+
+        <div class="projgrid">
+          <div class="box">
+            <h3>Hangman Game</h3>
+            <p>
+              This is a classic Hangman game implemented in Python. Players can
+              guess letters to uncover a hidden word within a limited number of
+              attempts. The game features a simple command-line interface.
+            </p>
+            <a
+              href="https://github.com/sreeparna-biswas/hangman-python"
+              target="_blank"
+              class="btn"
+              >GitHub Link</a
+            >
+          </div>
+          <div class="box">
+            <h3>Guessing Game</h3>
+            <p>
+              This is a simple text-based Guessing game implemented in Python.
+              Players can guess number according to difficulty level.
+            </p>
+
+            <a
+              href="https://github.com/sreeparna-biswas/Guessing-Game"
+              target="_blank"
+              class="btn"
+              >GitHub Link</a
+            >
+          </div>
+          <div class="box">
+            <h3>Blackjack/21</h3>
+            <p>
+              This is a simple text-based Blackjack game implemented in Python.
+              Players can play against the dealer and try to beat them by
+              getting a hand value close to 21 without going over.
+            </p>
+            <a
+              href="https://github.com/sreeparna-biswas/blackjack_21-python"
+              target="_blank"
+              class="btn"
+              >GitHub Link</a
+            >
+          </div>
+          <div class="box">
+            <h3>Coffee Machine</h3>
+            <p>
+              This is a simple text-based Coffee Machine program implemented in
+              Python. Users can choose from various coffee options, insert their
+              money and according to the availability of the ingredients the
+              coffee will be given to the user by checking the amount given by
+              the user.
+            </p>
+            <a
+              href="https://github.com/sreeparna-biswas/coffee-machine-python"
+              target="_blank"
+              class="btn"
+              >GitHub Link</a
+            >
+          </div>
+          <div class="box">
+            <h3>Web Scrapping</h3>
+            <p>This is a basic level web scrapping project.</p>
+            <a
+              href="https://github.com/sreeparna-biswas/web-scrapping-python"
+              target="_blank"
+              class="btn"
+              >GitHub Link</a
+            >
+          </div>
+          <div class="box">
+            <h3>Quiz</h3>
+            <p>
+              This is a simple quiz competition program written in Python. It
+              allows users to answer 10 questions in True/False and keeps track
+              of their scores(including negative marking). The program is
+              structured using a question bank(contains 14 questions).
+            </p>
+            <a
+              href="https://github.com/sreeparna-biswas/quiz-competition-python"
+              target="_blank"
+              class="btn"
+              >GitHub Link</a
+            >
+          </div>
+        </div>
+      </section>
+      <hr id="con" />
+      <section class="fifth">
+        <h2>Contact Details</h2>
+        <div class="bar"></div>
+        <div class="container">
+          <div class="contactinfo">
+            <div class="boxc">
+              <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Kolkata, West Bengal</p>
+              </div>
+            </div>
+            <div class="boxc">
+              <div class="icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>+91 8981302540</p>
+              </div>
+            </div>
+            <div class="boxc">
+              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>sreeparnabiswas1706@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contactform">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <h3>Send Message</h3>
+
+              <div class="inputbox">
+                <input type="text" name="name" required="required" />
+                <span>Enter your name</span>
+              </div>
+              <div class="inputbox">
+                <input type="text" name="email" required="required" />
+                <span>Enter your email address</span>
+              </div>
+              <div class="inputbox">
+                <textarea name="message" required="required"></textarea>
+                <span>Type your message here...</span>
+              </div>
+              <div class="inputbox">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="c85858b3-5a7d-4720-bfe9-b80b119db840"
+                />
+                <input type="submit" name="" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr id="last" />
+    <footer>
+      <nav>
+        <div class="left">
+          <h4 class="textp">Quick Access</h4>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#educ">Work Experience & Education</a></li>
+            <li><a href="#projt">Project</a></li>
+            <li><a href="#con">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
